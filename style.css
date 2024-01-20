@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(170, 234, 228);
+    margin: 0 auto;
+    width: fit-content; 
+    text-align: left;   
+}
+li{
+    list-style-type:lower-greek; 
+}
+
+a {
+    color: rgb(126, 3, 126); 
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
