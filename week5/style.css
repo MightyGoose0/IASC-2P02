@@ -1,0 +1,60 @@
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px #FFFFFF; 
+}
+
+p {
+    font-size: 28; 
+    margin-bottom: 28px;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+body{
+    width: 40%; 
+    color: white; 
+    margin-left: 5%;
+    text-shadow: 2px 2px 4px #FFFFFF; 
+}
+
+.clickable {
+    color: aqua;
+    cursor: grab;
+
+}
+
+.clickable:hover {
+    color: orange;
+    text-decoration: underline; 
+}
+
+.hidden { 
+    display:none;
+}
