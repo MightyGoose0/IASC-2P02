@@ -310,6 +310,10 @@ document.querySelector('#restart').onclick = function() {
     domObject.thirdChange = false
     domObject.fourthChange = false
 
+    group.position.x = 0;
+    group.position.y = 0;
+    group.position.z = 0;
+
     // reset directionalLight
     directionalLight.position.set(10, 2.5, 0)
 }
