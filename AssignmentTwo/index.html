@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Data Visualization Assignment</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js"
+            }
+        }
+    </script>
+
+    <!-- dataviz 1 -->
+    <script src="script.js" type="module"></script>
+
+    <!-- dataviz 2 -->
+    <script src="script2.js" type="module"></script>
+</head>
+<body>
+    <h1>Exploring The Hunger Games</h1>
+    <h2>Ryan Bokla</h2>
+
+    <p>The book I chose to conceptualize digitally via three.js is The Hunger Games, written by Suzzane Collins. It is a dystopian novel set in a post-apocalyptic world; the story takes place in the nation of Panem, which consists of a wealthy Capitol and twelve poorer districts. Each year, the Capitol holds the Hunger Games, a televised event where one boy and one girl from each district are chosen to compete in a battle to the death until only one survivor remains. The protagonist, Katniss Everdeen, volunteers to take her sister, Prim, place in the Hunger Games, . Throughout the story, Katniss navigates the challenges of the games, forms alliances, and confronts the oppressive regime of the Capitol. I chose this text because it was one of the first big books I read, and I loved it from the get-go. The story captivated me and struck many emotional strings along the way. The balance between action and comedy was astonishing and is just a book I have held dear to me for my entire life.  </p>
+
+    <!-- dataviz 1 -->
+    <div class="canvas-container">
+        <h2>Charcters In The Hunger Games</h2>
+
+        <canvas class="webgl"></canvas>
+        <div id="parent1"></div>
+        <p> Data is displayed Left-Right.Left click and drag to rotate. Right click and drag to move. Scroll to zoom.</p>
+    </div>
+
+    <p>The first visualization I created was the frequency of character names in the text. Interestingly, Katniss, the main character, has her name mentioned the least compared to her sister and eventual lover. This revelation underscores the story's focus on Katniss and her journey towards peace and freedom. To emphasize her importance, I represented Katniss with the largest red square, while Peeta and Prim’s squares were of equal size. I visualized the timeline of when the characters' names are mentioned, presenting the data in a left-to-right format, mirroring our reading pattern of classic novels.  </p>
+
+    <p>The second visualization shows key terms referencing the state Katniss feels she is entrapped in by the capitol’s regime.  The data goes on to show how, in the beginning, Katniss’s emotions convey that she is trapped and restricted by the capitol. Throughout the novel, Katniss is going on a quest for freedom as when you win the Hunger Games, you reap many rewards that only winners of the games are granted access to. This results in Katniss finally feeling she is free near the end of the novel. The words freedom and peace are represented in hearts as that's an object that represents those words. While order and rule are described in a square referencing the strict guidelines in place by the capitol. The reason for the animmating hearts is to ensure the viewers can differentiate between a heart and the cube.  I also visualized the timeline of these terms in a left-right format that mirrors how we read books.  </p>
+
+    <!-- dataviz 2 -->
+    <div class="canvas-container">
+        <h2> Themes In The Hunger Games</h2>
+
+        <canvas class="webgl2"></canvas>
+        <div id="parent2"></div>
+        <p>Data is displayed left-right. Left click and drag to rotate. Right click and drag to move. Scroll to zoom.</p>
+    </div>
+
+    <p>In conclusion, there are a couple of things I wish I was able to do to improve upon my assignment, #1 being I wanted to display the times District 1 vs District 2 and so on were mentioned in the text. However, in the process of tokenizing the text, I was never able to find a formula that allowed for District 1 to be read as a single word. Another aspect I wanted to improve on was the objects I was using; I would love to learn how to draw custom shapes, such as the Mockingjay pin, arrows and other objects, to make my designs more visually appealing. The resources are available online to learn however, it takes an enormous amount of time to master. But next time I will be more experienced offering my the ability to have greater design in my objects.  </p>
+    
+</body>
